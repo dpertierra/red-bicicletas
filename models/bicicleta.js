@@ -17,14 +17,14 @@ Bicicleta.add = function(bici){
 Bicicleta.removeById = function(biciId){
     for(var i=0; i<Bicicleta.allBicis.length; i++){
         if(Bicicleta.allBicis[i].id == biciId){
-            bicicleta.allBicis.splice(i,1);
+            Bicicleta.allBicis.splice(i,1);
             break;
         }
     }
 }
 
 Bicicleta.findById = function(biciId){
-    var bici = Bicicleta.allBicis.find(x => x.if == biciId);
+    var bici = Bicicleta.allBicis.find(x => x.id == biciId);
     if (bici)
         return bici; 
     else
