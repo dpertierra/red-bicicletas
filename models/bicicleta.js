@@ -35,12 +35,12 @@ Bicicleta.add = function(bici){
     Bicicleta.allBicis.push(bici);
 }
 
-var b1 = new Bicicleta(1, 'Rojo', 'Urbana', [-34.6012424, -58.3861497]);
-var b2 = new Bicicleta(2, 'Azul', 'Urbana', [-34.596932, -58.3808287]);
+// var b1 = new Bicicleta(1, 'Rojo', 'Urbana', [-34.6012424, -58.3861497]);
+// var b2 = new Bicicleta(2, 'Azul', 'Urbana', [-34.596932, -58.3808287]);
 
 
-Bicicleta.add(b1);
-Bicicleta.add(b2);
+// Bicicleta.add(b1);
+// Bicicleta.add(b2);
 // Bicicleta.allBicis.sort();
 
 module.exports = Bicicleta;
