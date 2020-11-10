@@ -41,5 +41,6 @@ var b2 = new Bicicleta(2, 'Azul', 'Urbana', [-34.596932, -58.3808287]);
 
 Bicicleta.add(b1);
 Bicicleta.add(b2);
+// Bicicleta.allBicis.sort();
 
 module.exports = Bicicleta;
